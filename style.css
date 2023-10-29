@@ -5,6 +5,12 @@
     box-sizing: border-box;
     font-family: 'Titillium Web', sans-serif;
 }
+
+:root {
+    --gray-800: #1e293b;
+    --gray-600: #475569;
+}
+
 /* 1 rem = 16pxs */
 header {
     background-image: url(./imagens/bg-mobile.png);
@@ -14,5 +20,16 @@ header {
     display: flex; /*Aplicamos o display no pai*/
     justify-content: center; /* Se queremos que ele vá na horizontal (esquerda ou direita) usamos justify-content: center; */ 
     align-items: center; /*| Na vertical align items */
+
+    margin-bottom: 3.7rem;
 }
 
+main {
+    padding-inline: 1.5rem; /*padding nas laterais*/
+}
+
+.descricao h1 {
+    color: var(--gray-800);
+    margin-bottom: 1rem;
+    font-size: 1.5625rem;
+}
