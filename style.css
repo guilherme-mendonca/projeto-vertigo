@@ -5,8 +5,14 @@
     box-sizing: border-box;
     font-family: 'Titillium Web', sans-serif;
 }
-
+/* 1 rem = 16pxs */
 header {
     background-image: url(./imagens/bg-mobile.png);
     background-size: cover;
+    height: 8.375rem;
+
+    display: flex; /*Aplicamos o display no pai*/
+    justify-content: center; /* Se queremos que ele vá na horizontal (esquerda ou direita) usamos justify-content: center; */ 
+    align-items: center; /*| Na vertical align items */
 }
+
