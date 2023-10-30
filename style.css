@@ -116,8 +116,16 @@ main {
     font-size: 1rem;
 }
 
+.bg-desktop {
+    display: none;
+}
+
 /*No @media vamos escrever codigos CSS que tiverem o min-width: 1000 px*/
 @media(min-width: 1000px) {
+    body {
+        display: flex; /*Sempre usamos o display flex quando queremos itens lado a lado*/
+    }
+
     header {
         background: none;
         justify-content: flex-start;
@@ -130,5 +138,14 @@ main {
 
     main {
         padding-inline: 7rem;
+    }
+
+    .conteudo {
+        width: 100%;
+    }
+
+    .bg-desktop {
+        display: block;
+        width: 100%;
     }
 }
