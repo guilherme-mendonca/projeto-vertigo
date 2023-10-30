@@ -129,7 +129,9 @@ main {
     header {
         background: none;
         justify-content: flex-start;
-        padding-inline: 7rem;
+        margin: 2.5rem 7rem 7rem; /*Ordem dos valores: para cima, esquerda direita e para baixo*/
+
+        height: fit-content; /*Altura necessária para que caiba o conteúdo */
     }
 
     header img {
@@ -137,7 +139,9 @@ main {
     }
 
     main {
-        padding-inline: 7rem;
+        margin-inline: 7rem;
+        max-width: 24rem;
+        padding: 0;
     }
 
     .conteudo {
