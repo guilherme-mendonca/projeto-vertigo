@@ -12,6 +12,7 @@
     --gray-400: #94a3b8;
     --gray-800: #1e293b;
     --purple: #7c3aed;
+    --white: #FFF;
 }
 
 /* 1 rem = 16pxs */
@@ -90,4 +91,17 @@ main {
 
 .login a:hover {
     text-decoration: underline;
+}
+
+.login button {
+    margin-top: 1rem;
+    padding-block: 1rem; /*padding-block só aplica em cima e embaixo*/
+    width: 100%;
+    background: var(--purple);
+    border: none;
+    border-radius: 0.25rem;
+
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--white);
 }
